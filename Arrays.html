@@ -1,0 +1,39 @@
+<html>
+<body>
+
+<script type="text/javascript">
+
+//different ways to create Arrays
+
+var jjk=new Array("Gojo","Sukuna","Yuji","Megumi","Tendou","Yuta");
+
+//Array Properties and methods
+document.write("Array length is : "+jjk.length+"<br/>");
+
+document.write(jjk[0]+"<br/>");
+
+
+var naruto=new Array(3);
+naruto[0]="Naruto";
+naruto[1]="Sasuke";
+naruto[2]="Sakura";
+document.write(naruto[1]+"<br/>"+"<br/>");
+
+//Combining 2 arrays
+var anime=jjk.concat(naruto);
+for(i=0;i<10;i++){
+	document.write(anime[i]+"<br/>");
+}
+
+//Add array elements
+var crap=new Array(3);
+for(i=0;i<3;i++){
+	crap[i] = prompt("Add something to array: ","");
+}
+
+for(i=0;i<crap.length;i++){
+	document.write("<br/>"+crap[i]);
+}
+</script>
+</body>
+</html>

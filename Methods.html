@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+	function person(name, age){
+		this.name=name;
+		this.age=age;
+		this.death=die;
+	}
+	function die(){
+	var years=75-this.age;
+	return years;
+	}
+	var ani=new person("Anitha Gurugubelli", 21);
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	document.write(ani.death());
+</script>
+</body>
+</html>
